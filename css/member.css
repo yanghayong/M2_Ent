@@ -1,0 +1,95 @@
+/* member */
+.member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    color: var(--dark);
+}
+
+.member li img {
+    width: 100%;
+    display: block;
+}
+
+.member h5 {
+    font-size: 26px;
+    margin: 30px 0 12px;
+}
+
+/* movie */
+.movie {
+    text-align: center;
+}
+
+.movie p {
+    font-size: 24px;
+    line-height: 1.6;
+    padding-top: 80px;
+    padding-bottom: 38px;
+    width: 54%;
+    margin: 0 auto;
+}
+
+/* banner */
+.banner {
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.banner .text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h3 {
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--dark);
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* blog */
+.blog li {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.blog .left {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.blog .right {
+    color: var(--dark);
+    padding: 10px 0;
+}
+
+.blog .right h3 {
+    font-size: 32px;
+}
+
+.blog .right p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 18px;
+    margin-bottom: 65px;
+}
+
+.blog .right p.name {
+    font-size: 14px;
+    color: var(--mid);
+}

@@ -1,0 +1,37 @@
+.gallery li img {
+    width: 370px;
+}
+
+.gallery_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--dark);
+}
+
+.category {
+    display: flex;
+    font-size: 14px;
+    gap: 30px;
+}
+
+.category li:first-child {
+    font-weight: 700;
+}
+
+.gallery_header i {
+    font-size: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 18px;
+}
+
+.gallery li p {
+    font-size: 18px;
+    color: var(--dark);
+    padding: 17px 13px;
+}
