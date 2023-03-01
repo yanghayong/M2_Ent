@@ -189,10 +189,7 @@
     filter: brightness(50%);
 }
 
-/* map */
-.map {
-    width: 100% !important;
-}
+
 
 /* insta */
 .insta .cards {
@@ -299,10 +296,5 @@
 
     .space .cards li i {
         font-size: 26px;
-    }
-
-    /* map */
-    .map {
-        height: 400px;
     }
 
